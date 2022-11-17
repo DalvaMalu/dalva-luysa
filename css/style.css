@@ -75,3 +75,61 @@ footer {
   place-items: center;
   min-height: 8vh;
 }
+
+#lista-pokemons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.descricao span {
+  font-size: 12px;
+  color: #666;
+}
+
+.poison {
+  background: #b97fc9;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fefefe;
+  padding: 2px 20px;
+}
+
+.grass {
+  background: #9bcc50;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #333;
+  padding: 2px 20px;
+}
+
+.fire {
+  background: #fd7d24;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fefefe;
+  padding: 2px 20px;
+}
+
+.water {
+  background: #4592c4;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fefefe;
+  padding: 2px 20px;
+}
+
+.flying {
+  background: linear-gradient(#3dc7ef 50%, #bdb9b8 50%);
+  border-radius: 5px;
+  font-size: 12px;
+  color: #333;
+  padding: 2px 20px;
+}
+
+.pokemon {
+  position: relative;
+}
+
+.pokemon:hover {
+  top: -10px;
+}
