@@ -6,11 +6,11 @@
 
 header {
   width: 100%;
-  background-color: darksalmon;
-  min-height: 15vh;
+  min-height: 14.9vh;
   display: grid;
   place-items: end;
   font-size: 16px;
+  border-bottom: 0.1vh solid #000;
 }
 
 #menu {
@@ -31,10 +31,10 @@ header {
 section {
   display: grid;
   place-items: center;
-  background: #333;
   padding: 10px 0;
   gap: 10px;
   min-height: 70vh;
+  border-bottom: 0.1vh solid #000;
 }
 
 .conteudo {
@@ -66,8 +66,12 @@ section {
   text-align: right;
 }
 
+.conteudo p {
+  color: #666;
+}
+
 footer {
   display: grid;
   place-items: center;
-  min-height: 10vh;
+  min-height: 8vh;
 }
